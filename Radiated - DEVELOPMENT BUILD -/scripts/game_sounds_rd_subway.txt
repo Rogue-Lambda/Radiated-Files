@@ -1,0 +1,18 @@
+"Anti_Citizen_report"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"wave"	"radiated/f_anticitizenreport_spkr.wav"
+}
+
+"Citadel_Alert"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"wave"	"radiated/f_citadel_alert.wav"
+}
+

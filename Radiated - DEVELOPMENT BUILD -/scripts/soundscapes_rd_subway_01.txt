@@ -1,0 +1,33 @@
+// Soundscapes for Canals & Underground
+
+// city voice
+
+// pa requests player id
+
+//  CHAR_STREAM			'*'		// as one of 1st 2 chars in name, indicates streaming wav data
+//  CHAR_USERVOX		'?'		// as one of 1st 2 chars in name, indicates user realtime voice data
+//  CHAR_SENTENCE		'!'		// as one of 1st 2 chars in name, indicates sentence wav
+//  CHAR_DRYMIX			'#'		// as one of 1st 2 chars in name, indicates wav bypasses dsp fx
+//  CHAR_DOPPLER		'>'		// as one of 1st 2 chars in name, indicates doppler encoded stereo wav: left wav (incomming) and right wav (outgoing).
+//  CHAR_DIRECTIONAL	'<'		// as one of 1st 2 chars in name, indicates stereo wav has direction cone: mix left wav (front facing) with right wav (rear facing) based on soundfacing direction
+//  CHAR_DISTVARIANT	'^'		// as one of 1st 2 chars in name, indicates distance variant encoded stereo wav (left is close, right is far)
+//  CHAR_OMNI			'@'		// as one of 1st 2 chars in name, indicates non-directional wav (default mono or stereo)
+//  CHAR_SPATIALSTEREO	')'		// as one of 1st 2 chars in name, indicates spatialized stereo wav
+//  CHAR_FAST_PITCH		'}'		// as one of 1st 2 chars in name, forces low quality, non-interpolated pitch shift
+
+"rd_subway_intro"
+{
+	"dsp"	"1"
+
+	"wave"	
+	{
+		"name"		"f_anticitizenreport_spkr.wav"
+		"volume"	"0.7"
+	}
+
+	"wave"	
+	{
+		"name"		"f_citadel_alert.wav"
+		"volume"	"0.4"
+	}
+}

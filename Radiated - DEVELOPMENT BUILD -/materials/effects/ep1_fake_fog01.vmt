@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"effects/ep1_fake_fog01"
+	"$translucent"	1
+ 	"$nodecal" 1 
+}

@@ -1,0 +1,26 @@
+// load the base configuration
+//exec default.cfg
+
+//Clear nonsense
+clear
+
+// Tell the console to display the engine info.
+echo Radiated_Alpha Build 0.1 as of 02/06/2020
+echo "Taz top mapper"
+
+// sv_rollangle 5
+// cl_viewbob_timer 6
+
+
+// Setup custom controller
+//exec joystick.cfg
+
+// run a user script file if present
+exec autoexec.cfg
+
+// stuff command line statements
+stuffcmds
+
+// display the startup level
+// Until we make a menu map, we disabled startupmenu for now. 
+startupmenu
