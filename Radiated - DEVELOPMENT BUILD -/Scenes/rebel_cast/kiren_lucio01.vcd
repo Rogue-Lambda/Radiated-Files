@@ -1,0 +1,58 @@
+// Choreo version 1
+actor "Kiren_Lucio"
+{
+  channel "Audio"
+  {
+    event speak "odessa.nlo_cub_radio"
+    {
+      time 0.015926 6.368874
+      param "odessa.nlo_cub_radio"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "cross_arms"
+    {
+      time 0.013333 6.500000
+      param "g_Pacer_ArmsCrossed"
+      absolutetags playback_time
+      {
+        "apex" 0.000000
+        "accent" 0.026722
+        "loop" 0.038578
+        "end" 0.997944
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.285714
+        "accent" 0.464286
+        "loop" 0.642857
+        "end" 0.892857
+      }
+      sequenceduration 0.966667
+    }
+  }
+  channel "Look_at"
+  {
+    event lookat "look_at_cam"
+    {
+      time 0.006667 6.500000
+      param "crtv_cam"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "136"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -73,5 +73,13 @@ game_sounds_manifest
 	"precache_file"		"scripts/npc_sounds_sniper.txt"
 	"precache_file"		"scripts/npc_sounds_stalker.txt"
 	"precache_file"		"scripts/npc_sounds_gman.txt"
+	
+	// npc a.i hl2mp_mod sounds
+	
+	"precache_file"		"scripts/npc_sounds_houndeye.txt"
+	"precache_file"		"scripts/npc_sounds_bullsquid.txt"
+	
+	//Radiated
+	
 	"precache_file"		"scripts/game_sounds_rd_subway.txt"
 }

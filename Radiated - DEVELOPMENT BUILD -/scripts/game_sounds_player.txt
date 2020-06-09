@@ -42,7 +42,8 @@
 	"volume"	"0.8"
 	"soundlevel"  "SNDLVL_75dB"
 
-	"wave"	"items/ammo_pickup.wav"
+	"wave"	"items/ammo_pickup1.wav"
+	"wave"	"items/ammo_pickup2.wav"
 }
 
 "HL2Player.TrainUse"
@@ -171,6 +172,7 @@
 	"rndwave"
 	{
 		"wave"		"player/pl_fallpain1.wav"
+		"wave"		"player/pl_fallpain2.wav"
 		"wave"		"player/pl_fallpain3.wav"
 	}
 }
@@ -265,6 +267,10 @@
 	{
 		"wave"	"player/geiger1.wav"
 		"wave"	"player/geiger2.wav"
+		"wave"	"player/geiger3.wav"
+		"wave"	"player/geiger4.wav"
+		"wave"	"player/geiger5.wav"
+		"wave"	"player/geiger6.wav"
 	}
 }
 

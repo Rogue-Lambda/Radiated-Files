@@ -1,0 +1,227 @@
+"NPC_HoundEye.Hunt"
+{
+ "channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/Houndeye/he_hunt1.wav"
+		"wave"		"npc/Houndeye/he_hunt2.wav"
+		"wave"		"npc/Houndeye/he_hunt3.wav"
+		"wave"		"npc/Houndeye/he_hunt4.wav"
+	}
+}
+"NPC_Houndeye.Idle"	// Idle hound
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/Houndeye/he_idle1.wav"
+		"wave"		"npc/Houndeye/he_idle2.wav"
+		"wave"		"npc/Houndeye/he_idle3.wav"
+		"wave"		"npc/Houndeye/he_idle4.wav"
+	}
+}
+
+"NPC_Houndeye.Pain"	// Hound in Pain
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/Houndeye/pain1.wav"
+		"wave"	"npc/Houndeye/pain2.wav"
+		"wave"	"npc/Houndeye/pain3.wav"
+		//"wave"	"npc/Houndeye/he_pain4.wav"
+	//	"wave"	"npc/Houndeye/he_pain5.wav"
+	}
+}
+
+"NPC_Houndeye.Pain"	// Hound in Pain
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/Houndeye/pain1.wav"
+		"wave"	"npc/Houndeye/pain2.wav"
+		"wave"	"npc/Houndeye/pain3.wav"
+		//"wave"	"npc/Houndeye/he_pain4.wav"
+	//	"wave"	"npc/Houndeye/he_pain5.wav"
+	}
+}
+
+"NPC_Houndeye.Alert"	//Aint nothin' but a Houndeye!
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"npc/Houndeye/he_alert1.wav"
+		"wave"	"npc/Houndeye/he_alert2.wav"
+		"wave"	"npc/Houndeye/he_alert3.wav"
+}
+
+"NPC_Houndeye.Warn"	//Crap! Enemy!
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"npc/Houndeye/he_alert1.wav"
+		"wave"	"npc/Houndeye/he_alert2.wav"
+		"wave"	"npc/Houndeye/he_alert3.wav"
+}
+
+"NPC_Houndeye.Warn"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"npc/Houndeye/he_alert1.wav"
+		"wave"	"npc/Houndeye/he_alert2.wav"
+		"wave"	"npc/Houndeye/he_alert3.wav"
+}
+
+"NPC_HoundEye.WarmUp"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+		"wave"	"npc/Houndeye/he_alert6.wav"
+		"wave"	"npc/Houndeye/he_alert7.wav"
+		"wave"	"npc/Houndeye/he_alert8.wav"
+}
+
+"NPC_Houndeye.Die"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/Houndeye/he_die1.wav"
+		"wave"	"npc/Houndeye/he_die2.wav"
+		"wave"	"npc/Houndeye/he_die3.wav"
+	}
+}
+
+"NPC_Houndeye.Die"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/Houndeye/he_die1.wav"
+		"wave"	"npc/Houndeye/he_die2.wav"
+		"wave"	"npc/Houndeye/he_die3.wav"
+	}
+}
+
+
+"NPC_Houndeye.WarmUp"	// Hound attack!
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.80"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/Houndeye/he_attack1.wav"
+		"wave"	"npc/Houndeye/he_attack2.wav"
+		"wave"	"npc/Houndeye/he_attack3.wav"
+	}
+}
+
+"NPC_Houndeye.Anger1"	// Grrrrr!
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.80"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/Houndeye/he_pain2.wav"
+	}
+}
+
+"NPC_Houndeye.Anger2"	// Grrrrr!
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"0.80"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/Houndeye/he_pain2.wav"
+	}
+}
+
+"NPC_Houndeye.Sonic"	// Neeeow! POP!
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/Houndeye/he_blast1.wav"
+		"wave"	"npc/Houndeye/he_blast2.wav"
+		"wave"	"npc/Houndeye/he_blast3.wav"
+	}
+}
+
+"NPC_Houndeye.SpeakSentence"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"VOL_NORM"
+	"pitch"		"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"npc/Houndeye/he_idle7.wav"
+		"wave"	"npc/Houndeye/he_idle8.wav"
+		"wave"	"npc/Houndeye/he_idle9.wav"
+	}
+}
