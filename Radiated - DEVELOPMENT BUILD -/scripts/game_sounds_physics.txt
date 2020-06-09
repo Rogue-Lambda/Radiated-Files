@@ -3862,3 +3862,84 @@
 		"wave"		"physics/metal/sawblade_stick3.wav"
 	}
 }
+
+//added!
+
+//Plastic garbage bag
+
+"Plastic_Bag.ImpactSoft"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_90dB"
+	"pitch"		"96,104"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave" "physics/plaster/ceiling_tile_impact_soft1.wav"
+		"wave" "physics/plaster/ceiling_tile_impact_soft2.wav"
+		"wave" "physics/plaster/ceiling_tile_impact_soft3.wav"
+	}
+}
+
+"Plastic_Bag.ImpactHard"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"80,88" //"96,104"
+	"volume"	"0.35"
+	"rndwave"
+	{
+		"wave" "physics/flesh/flesh_squishy_impact_hard1.wav"
+		"wave" "physics/flesh/flesh_squishy_impact_hard2.wav"
+		"wave" "physics/flesh/flesh_squishy_impact_hard3.wav"
+		"wave" "physics/flesh/flesh_squishy_impact_hard4.wav"
+	}
+}
+
+"Plastic_Bag.BulletImpact"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_90dB"
+	"pitch"		"108,112" //"96,104"
+	"volume"	"0.35"
+	"rndwave"
+	{
+		"wave" "physics/plastic/plastic_bag_bulletimpact1.wav"
+		"wave" "physics/plastic/plastic_bag_bulletimpact2.wav"
+			
+	}
+}
+
+"Plastic_Bag.Break"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"96,104"
+	"volume"	"0.85"
+	"rndwave"
+	{
+		"wave" "physics/plastic/plastic_bag_break1.wav"
+		"wave" "physics/plastic/plastic_bag_break2.wav"
+	}
+}
+
+
+"Plastic_Bag.ScrapeSmooth"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"96,104"
+	"volume"	"0.55"
+
+	"wave" "physics/plastic/plastic_bag_scrape_smooth_loop1.wav"
+}
+
+"Plastic_Bag.ScrapeRough"
+{
+	"channel"		"CHAN_BODY"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"96,104"
+	"volume"	"0.35"
+
+	"wave" "physics/plastic/plastic_bag_scrape_rough_loop1.wav"
+}
