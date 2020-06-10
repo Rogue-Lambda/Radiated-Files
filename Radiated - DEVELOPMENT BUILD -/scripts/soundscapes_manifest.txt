@@ -17,9 +17,6 @@ soundscapes_manifest
 	"file"		"scripts/soundscapes_coast.txt"
 	"file"		"scripts/soundscapes_prison.txt"
 	"file"		"scripts/soundscapes_trainyard.txt"
-	
-	// Radiated
-	"file"		"scripts/soundscapes_rd_subway_01.txt"
 
 	//episode 2
 	"file"		"scripts/soundscapes_silo.txt"
