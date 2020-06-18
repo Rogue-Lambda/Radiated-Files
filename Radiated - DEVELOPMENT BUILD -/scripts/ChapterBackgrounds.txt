@@ -1,4 +1,6 @@
 "chapters"
 {
 	1	"rd_background01"
-}
+	2	"rd_background02"
+	3	"rd_background03"
+	}

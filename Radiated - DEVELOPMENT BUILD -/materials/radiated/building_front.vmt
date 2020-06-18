@@ -1,0 +1,6 @@
+"LightmappedGeneric" 
+{ 
+	"$basetexture" "radiated/building_front"
+	"$bumpmap"     "radiated/building_front_normal"
+	"$surfaceprop" "concrete"
+} 
