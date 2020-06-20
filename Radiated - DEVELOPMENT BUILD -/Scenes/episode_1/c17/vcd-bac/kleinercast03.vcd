@@ -1,29 +1,22 @@
 // Choreo version 1
-event stoppoint "stop"
+event stoppoint "done"
 {
-  time 23.727274 -1.000000
+  time 30.814816 -1.000000
   param "noaction"
 }
 actor "Kleiner"
 {
   channel "audio"
   {
-    event speak "kl_fellowcitizens06"
+    event speak "kl_fellowcitizens02"
     {
-      time 0.138035 12.619736
-      param "vo\episode_1\intro\kl_fellowcitizens06.wav"
-      fixedlength
-      cctype "cc_master"
-      cctoken ""
-    }
-    event speak "kl_fellowcitizens07"
-    {
-      time 10.209459 26.554380
-      param "vo\episode_1\intro\kl_fellowcitizens07.wav"
+      time 0.067312 32.953545
+      param "ep_01.kl_fellowcitizens02"
       fixedlength
       tags
       {
-        "lighter" 0.039246
+        "find" 0.171332
+        "still" 0.204151
       }
       cctype "cc_master"
       cctoken ""
@@ -41,13 +34,13 @@ actor "Kleiner"
     }
     event gesture "kposture06"
     {
-      time 1.348485 10.806529
+      time 1.348485 10.191144
       param "kposture06"
       absolutetags playback_time
       {
-        "apex" 0.110509
-        "loop" 0.146236
-        "end" 0.910574
+        "apex" 0.118200
+        "loop" 0.156413
+        "end" 0.870875
       }
       absolutetags shifted_time
       {
@@ -87,15 +80,14 @@ actor "Kleiner"
     }
     event gesture "kgesture08"
     {
-      time 3.101191 11.076277
+      time 3.101191 10.456690
       param "kgesture08"
-      synctofollowinggesture
       absolutetags playback_time
       {
-        "apex" 0.096192
-        "accent" 0.142758
-        "loop" 0.197790
-        "end" 0.894479
+        "apex" 0.104295
+        "accent" 0.154783
+        "loop" 0.214451
+        "end" 0.885590
       }
       absolutetags shifted_time
       {
@@ -106,17 +98,36 @@ actor "Kleiner"
       }
       sequenceduration 2.633333
     }
-    event gesture "kgesture08"
+    event gesture "kgesture07"
     {
-      time 12.562883 17.591238
-      param "kgesture08"
-      synctofollowinggesture
+      time 9.142858 13.429382
+      param "kgesture07"
       absolutetags playback_time
       {
-        "apex" 0.123561
-        "accent" 0.197416
-        "loop" 0.284699
-        "end" 0.879458
+        "apex" 0.110180
+        "accent" 0.204620
+        "loop" 0.314800
+        "end" 0.763347
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.168675
+        "accent" 0.313253
+        "loop" 0.481928
+        "end" 0.662651
+      }
+      sequenceduration 2.800000
+    }
+    event gesture "kgesture08"
+    {
+      time 11.793653 17.289303
+      param "kgesture08"
+      absolutetags playback_time
+      {
+        "apex" 0.113055
+        "accent" 0.180630
+        "loop" 0.260491
+        "end" 0.889708
       }
       absolutetags shifted_time
       {
@@ -129,14 +140,14 @@ actor "Kleiner"
     }
     event gesture "kgesture03p"
     {
-      time 22.031748 25.761513
+      time 22.031748 25.069204
       param "kgesture03p"
       absolutetags playback_time
       {
-        "apex" 0.124093
-        "accent" 0.250927
-        "loop" 0.323404
-        "end" 0.793103
+        "apex" 0.152377
+        "accent" 0.308119
+        "loop" 0.397115
+        "end" 0.813934
       }
       absolutetags shifted_time
       {
@@ -146,6 +157,86 @@ actor "Kleiner"
         "end" 0.616438
       }
       sequenceduration 2.466667
+    }
+    event gesture "kgesture07"
+    {
+      time 24.031748 27.389660
+      param "kgesture08"
+      absolutetags playback_time
+      {
+        "apex" 0.140650
+        "accent" 0.261207
+        "loop" 0.401856
+        "end" 0.827423
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.115385
+        "accent" 0.256410
+        "loop" 0.423077
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
+    }
+    event gesture "kgesture01"
+    {
+      time 26.253969 29.018921
+      param "kgesture01"
+      absolutetags playback_time
+      {
+        "apex" 0.201158
+        "accent" 0.286753
+        "loop" 0.445715
+        "end" 0.764342
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.114286
+        "accent" 0.214286
+        "loop" 0.400000
+        "end" 0.600000
+      }
+      sequenceduration 2.366667
+    }
+    event gesture "kgesture01"
+    {
+      time 16.111111 20.460321
+      param "kgesture01"
+      absolutetags playback_time
+      {
+        "apex" 0.131533
+        "accent" 0.185949
+        "loop" 0.287007
+        "end" 0.858183
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.114286
+        "accent" 0.214286
+        "loop" 0.400000
+        "end" 0.600000
+      }
+      sequenceduration 2.366667
+    }
+    event gesture "kgesture08"
+    {
+      time 28.063492 30.696825
+      param "kgesture08"
+      absolutetags playback_time
+      {
+        "apex" 0.115385
+        "accent" 0.256410
+        "loop" 0.423077
+        "end" 0.641026
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.115385
+        "accent" 0.256410
+        "loop" 0.423077
+        "end" 0.641026
+      }
+      sequenceduration 2.633333
     }
     event gesture "kgesture08"
     {
@@ -166,48 +257,6 @@ actor "Kleiner"
         "end" 0.641026
       }
       sequenceduration 2.633333
-    }
-    event gesture "kgesture09"
-    {
-      time 9.743590 14.128634
-      param "kgesture09"
-      synctofollowinggesture
-      absolutetags playback_time
-      {
-        "apex" 0.112005
-        "accent" 0.311999
-        "loop" 0.358152
-        "end" 0.784622
-      }
-      absolutetags shifted_time
-      {
-        "apex" 0.119048
-        "accent" 0.428571
-        "loop" 0.500000
-        "end" 0.666667
-      }
-      sequenceduration 2.833333
-    }
-    event gesture "kgesture07"
-    {
-      time 16.512821 20.788107
-      param "kgesture07"
-      synctofollowinggesture
-      absolutetags playback_time
-      {
-        "apex" 0.110470
-        "accent" 0.205158
-        "loop" 0.315627
-        "end" 0.779061
-      }
-      absolutetags shifted_time
-      {
-        "apex" 0.168675
-        "accent" 0.313253
-        "loop" 0.481928
-        "end" 0.662651
-      }
-      sequenceduration 2.800000
     }
   }
   channel "BodyGesture"
@@ -277,14 +326,14 @@ actor "Kleiner"
     }
     event gesture "bodyaccentup"
     {
-      time 10.231990 12.685837
+      time 9.539683 11.839684
       param "bodyaccentup"
       absolutetags playback_time
       {
-        "apex" 0.131615
-        "extreme" 0.186751
-        "loop" 0.503780
-        "end" 0.682971
+        "apex" 0.073529
+        "extreme" 0.132353
+        "loop" 0.470588
+        "end" 0.661765
       }
       absolutetags shifted_time
       {
@@ -396,23 +445,43 @@ actor "Kleiner"
     }
     event gesture "bodyaccentup"
     {
-      time 22.380955 25.524666
+      time 22.380955 24.601589
       param "bodyaccentup"
       event_ramp 
       {
         0.0000 0.7436
         0.1931 0.7372
         0.7621 0.6987
-        2.1802 0.7179
-        2.8147 0.7115
-        3.1437 0.7115
+        1.2571 0.7179
+        1.8916 0.7115
+        2.2206 0.7115
       }
       absolutetags playback_time
       {
-        "apex" 0.099238
-        "extreme" 0.142274
-        "loop" 0.389733
-        "end" 0.756098
+        "apex" 0.140489
+        "extreme" 0.201415
+        "loop" 0.551738
+        "end" 0.749747
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.073529
+        "extreme" 0.132353
+        "loop" 0.470588
+        "end" 0.661765
+      }
+      sequenceduration 2.300000
+    }
+    event gesture "bodyaccentup"
+    {
+      time 26.333334 30.665079
+      param "bodyaccentup"
+      absolutetags playback_time
+      {
+        "apex" 0.086678
+        "extreme" 0.117911
+        "loop" 0.297502
+        "end" 0.838215
       }
       absolutetags shifted_time
       {
@@ -532,7 +601,7 @@ actor "Kleiner"
   {
     event lookat "camera_tv_klienercast"
     {
-      time 0.024510 25.718302
+      time 0.024510 31.718302
       param "camera_tv_klienercast"
       event_ramp 
       {
@@ -540,10 +609,10 @@ actor "Kleiner"
         0.6345 0.9267
         0.7923 1.0000
         3.1882 1.0000
-        20.6644 1.0000
-        21.8703 1.0000
-        24.1933 1.0000
-        25.6938 1.0000
+        26.6644 1.0000
+        27.8703 1.0000
+        30.1933 1.0000
+        31.6938 1.0000
       }
     }
   }
@@ -551,23 +620,26 @@ actor "Kleiner"
   {
     event face "mark_Kleiner_Face_01"
     {
-      time 0.021787 25.786749
+      time 0.021787 31.726143
       param "mark_Kleiner_Face_01"
       event_ramp 
       {
         0.7108 0.8005
         0.8836 0.9405
-        24.6475 0.9935
-        25.3746 1.0000
-        25.7650 1.0000
+        30.5869 0.9935
+        31.3140 1.0000
+        31.7044 1.0000
       }
     }
+  }
+  channel "MoveTo"
+  {
   }
   channel "Flex Head"
   {
     event flexanimation "flex head"
     {
-      time 0.066667 25.930641
+      time 0.066667 31.718521
       param ""
       flexanimations samples_use_time
       {
@@ -598,14 +670,21 @@ actor "Kleiner"
           8.0625 0.4762
           8.3547 0.4762
           8.6208 0.5170
-          9.7306 0.5238
-          9.9152 0.5170
-          10.1657 0.5102
-          10.4817 0.5034
-          10.7229 0.4966
-          11.0111 0.5850
-          11.2839 0.5850
-          11.5608 0.5850
+          8.7856 0.5238
+          8.9702 0.5170
+          9.2207 0.5102
+          9.5367 0.5034
+          9.7779 0.4966
+          10.0661 0.5850
+          10.3389 0.5850
+          10.6158 0.5850
+          11.1666 0.5782
+          11.2919 0.5850
+          11.6149 0.5646
+          11.8193 0.5578
+          12.3005 0.5510
+          12.6103 0.5374
+          12.8972 0.4966
           13.1971 0.4898
           13.5399 0.4955
           13.8101 0.5676
@@ -626,7 +705,21 @@ actor "Kleiner"
           21.3880 0.5586
           21.5923 0.5586
           22.6208 0.5495
-          23.5090 0.5291
+          24.0933 0.5450
+          24.3306 0.5495
+          24.5548 0.5586
+          24.8712 0.6532
+          25.0624 0.6622
+          25.2997 0.6667
+          26.1766 0.6667
+          26.3150 0.6622
+          26.5062 0.6081
+          27.0007 0.5676
+          27.2644 0.5721
+          28.0158 0.5811
+          28.2400 0.5766
+          28.6712 0.5135
+          29.0338 0.5135
         }
         "head_updown" range 15.0 -15.0 
         {
@@ -678,19 +771,29 @@ actor "Kleiner"
           8.1909 0.5948
           8.4099 0.5556
           8.5997 0.7778
-          8.8337 0.7945
-          9.4086 0.7945
-          9.7154 0.8039
-          9.8860 0.7647
-          10.1740 0.7582
-          10.3343 0.8235
-          10.4446 0.8105
-          10.5963 0.6013
-          10.7538 0.5621
-          10.9844 0.8105
-          11.1347 0.8758
-          11.3265 0.8105
-          11.5535 0.8105
+          8.7704 0.8039
+          8.9410 0.7647
+          9.2290 0.7582
+          9.3893 0.8235
+          9.4996 0.8105
+          9.6513 0.6013
+          9.8088 0.5621
+          10.0394 0.8105
+          10.1897 0.8758
+          10.3815 0.8105
+          10.6085 0.8105
+          11.0570 0.8105
+          11.2458 0.9020
+          11.3644 0.8758
+          11.5358 0.6601
+          11.6457 0.6013
+          11.8325 0.6536
+          12.0302 0.6536
+          12.3345 0.6536
+          12.4993 0.7516
+          12.6225 0.7059
+          12.7644 0.4207
+          12.8952 0.4011
           13.0361 0.4730
           13.2085 0.4795
           13.3660 0.4643
@@ -733,10 +836,35 @@ actor "Kleiner"
           22.4574 0.4655
           22.6486 0.4052
           22.7852 0.4655
-          23.0155 0.7728
+          23.0255 0.7500
           23.1726 0.7241
-          23.3402 0.7147
-          23.5163 0.7127
+          23.3402 0.7284
+          23.5163 0.7629
+          23.5854 0.7155
+          23.7186 0.5129
+          23.9032 0.5431
+          24.1649 0.5388
+          24.4144 0.6810
+          24.6052 0.7112
+          24.8523 0.4612
+          25.0097 0.4224
+          25.1877 0.4181
+          25.4514 0.4267
+          25.6978 0.4267
+          25.8883 0.5431
+          26.0597 0.4957
+          26.2707 0.4957
+          26.4666 0.4224
+          26.7501 0.4828
+          26.9545 0.7629
+          27.0732 0.7845
+          27.2124 0.7457
+          27.3786 0.7457
+          28.1061 0.7457
+          28.2803 0.8190
+          28.3896 0.7759
+          28.5742 0.5086
+          28.8181 0.5000
         }
         "head_tilt" range 15.0 -15.0 
         {
@@ -759,13 +887,22 @@ actor "Kleiner"
           8.2672 0.4907
           8.4188 0.4969
           8.6166 0.5714
-          9.7198 0.5842
-          9.9506 0.5830
-          10.5303 0.5872
-          10.7646 0.5915
-          11.0907 0.7064
-          11.3280 0.7234
-          11.5060 0.7191
+          8.7748 0.5842
+          9.0056 0.5830
+          9.5853 0.5872
+          9.8196 0.5915
+          10.1457 0.7064
+          10.3830 0.7234
+          10.5610 0.7191
+          11.1337 0.7277
+          11.3051 0.7234
+          11.6017 0.7745
+          11.7995 0.7702
+          12.0566 0.7617
+          12.3137 0.7745
+          12.5257 0.7404
+          12.7692 0.5745
+          12.9621 0.5617
           13.2588 0.5574
           14.5017 0.5574
           14.7231 0.5617
@@ -783,28 +920,36 @@ actor "Kleiner"
           21.3682 0.5745
           21.5396 0.5745
           22.5549 0.5702
+          24.1856 0.5745
+          24.3965 0.5745
+          24.5745 0.5830
+          24.8646 0.7149
+          25.1020 0.7319
+          26.2623 0.7404
+          26.4007 0.7404
+          26.5787 0.6851
+          26.8556 0.6298
+          27.1523 0.6170
+          27.3237 0.6170
+          28.0515 0.6298
+          28.2031 0.6255
+          28.5956 0.5106
+          28.8330 0.5064
         }
       }
     }
   }
-  channel "MoveTo"
+  channel "Flex Face"
   {
-    event moveto "mark_Kleiner_03"
-    {
-      time 0.066068 1.350383
-      param "mark_Kleiner_03"
-      param2 "Walk"
-      forceshortmovement
-    }
   }
 }
 
 scalesettings
 {
-  "CChoreoView" "26"
-  "ExpressionTool" "40"
+  "CChoreoView" "42"
+  "ExpressionTool" "32"
   "GestureTool" "100"
-  "RampTool" "100"
+  "RampTool" "58"
   "SceneRampTool" "100"
 }
 fps 60
