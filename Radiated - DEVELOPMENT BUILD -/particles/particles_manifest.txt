@@ -48,4 +48,5 @@ particles_manifest
 	"file"		"particles/impact_fx.pcf"	
 	"file"		"particles/flamethrowertest.pcf"
 	"file"		"particles/flamethrower.pcf" 
+	"file"		"particles/npc_houndeye.pcf"
 }

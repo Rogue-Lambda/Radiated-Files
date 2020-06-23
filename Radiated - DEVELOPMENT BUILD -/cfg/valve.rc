@@ -6,7 +6,19 @@ clear
 
 // Tell the console to display the engine info.
 echo Radiated_Alpha Build 0.1 as of 02/06/2020
+echo "Syph0 Lead writer"
+echo "Blue199 Co-writer"
 echo "Taz top mapper"
+echo "Madison Mad Mapper & Composer"
+echo "Security Officer The Fonz Modeller"
+echo "Slend1 Voice Actor for the Combine"
+echo "Ronaldhamrak Voice Actor for the Overwatch"
+echo "SpookyTheCuteGhost Media Manager"
+echo "SurgicalAsh Playtester"
+echo "Security Officer The Fonz Modeller"
+echo "Pinky Voice Actor for Daniel"
+echo "Emerald Knight Texture Artist"
+echo "Bloo Concept Artist"
 
 // sv_rollangle 5
 // cl_viewbob_timer 6
@@ -19,7 +31,7 @@ echo "Taz top mapper"
 exec autoexec.cfg
 
 // stuff command line statements
-stuffcmds
+// stuffcmds
 
 // display the startup level
 // Until we make a menu map, we disabled startupmenu for now. 

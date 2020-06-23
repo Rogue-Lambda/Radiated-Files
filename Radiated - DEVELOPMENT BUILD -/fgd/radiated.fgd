@@ -17,3 +17,5 @@
 ]
 
 @PointClass base(Weapon) studio("models/weapons/w_slam.mdl") = weapon_slam : "S.L.A.M." []
+@NPCClass base(BaseNPC) studio("models/bullsquid.mdl") = npc_bullsquid : "Bullsquid" []
+@NPCClass base(BaseNPC) studio("models/xenians/houndeye.mdl") = npc_houndeye : "Houndeye" []
