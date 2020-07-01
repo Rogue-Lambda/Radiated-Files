@@ -1124,4 +1124,16 @@
 	"soundlevel"	"0"
 
 	"wave"			"*#music/WarehouseMP.mp3"
+	
+}
+
+"Street_Track"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0000"
+	"pitch"			"100"
+
+	"soundlevel"	"0"
+
+	"wave"			"*#music/Street_Track.mp3"
 }

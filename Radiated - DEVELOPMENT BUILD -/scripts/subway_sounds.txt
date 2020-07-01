@@ -1,0 +1,10 @@
+"Street_Track"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100, 100"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*#music/Street_Track.mp3"
+}

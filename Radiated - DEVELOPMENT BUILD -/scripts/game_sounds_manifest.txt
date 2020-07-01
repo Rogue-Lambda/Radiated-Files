@@ -82,4 +82,5 @@ game_sounds_manifest
 	//Radiated
 	
 	"precache_file"		"scripts/game_sounds_rd_subway.txt"
+	"precache_file"		"scripts/plaza_sounds.txt"
 }

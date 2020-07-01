@@ -1565,3 +1565,17 @@
 	"soundlevel"  	"SNDLVL_70dB"
 	"wave"	"weapons/tripwire/mine_activate.wav"
 }
+
+"Weapon_SniperRifle.NPC_Single"
+(
+	"channel"	"CHAN_WEAPON"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_130dB"
+	"pitch"	"100, 120"
+
+	"rndwave"
+	{
+		"wave"	"weapons/ar1/ar1_1.wav"
+		"wave"	"weapons/ar1/ar1_2.wav"
+	}
+)

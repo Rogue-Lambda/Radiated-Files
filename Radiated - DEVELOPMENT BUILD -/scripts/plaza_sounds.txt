@@ -1,0 +1,10 @@
+"plaza_room"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100, 100"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"plaza/plaza.wav"
+}

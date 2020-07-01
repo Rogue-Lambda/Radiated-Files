@@ -35,7 +35,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"music/WarehouseMP.mp3"
+	"wave"			"*#music/WarehouseMP.mp3"
 }
 
 "lost and alone"
@@ -44,7 +44,7 @@
 	"volume"	"VOL_NORM"
 	"soundlevel"  "SNDLVL_NORM"
 
-	"wave"	"music/Lost_and_Alone.mp3"
+	"wave"	"*#music/Lost_and_Alone.mp3"
 }
 
 "Action_Master"
@@ -55,7 +55,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"music/Action_Master.mp3"
+	"wave"			"*#music/Action_Master.mp3"
 }
 
 "Ambient1"
@@ -66,7 +66,7 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"music/Ambinet1.mp3"
+	"wave"			"*#music/Ambinet1.mp3"
 }
 
 "Station"
@@ -77,5 +77,27 @@
 
 	"soundlevel"	"SNDLVL_NORM"
 
-	"wave"			"music/Station.mp3"
+	"wave"			"*#music/Station.mp3"
+}
+
+"Whack"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100, 100"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*#music/Whacked.wav"
+}
+
+"Street_Track"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"VOL_NORM"
+	"pitch"			"100, 100"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"			"*#music/Street_Track.mp3"
 }
