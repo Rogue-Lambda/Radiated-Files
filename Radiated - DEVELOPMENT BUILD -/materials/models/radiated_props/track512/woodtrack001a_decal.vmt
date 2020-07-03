@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	// original shader: basetimeslightmapalphablend
+	"$translucent" 1
+
+	"$basetexture" "wood/woodtrack001a"
+	"$surfaceprop" "wood"
+	"%keywords" "c17industrial,c17trainstation,wasteland"
+}
