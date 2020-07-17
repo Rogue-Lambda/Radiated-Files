@@ -157,8 +157,8 @@ public:
 	NPC_STATE SelectIdealState ( void );
 
 	bool 			OverrideMove( float flInterval );			// Override to take total control of movement (return true if done so)
-	bool			ShouldInvestigateSounds( void ) { return !m_bIsBaby || BaseClass::ShouldInvestigateSounds(); }	// 1upD - Adult predators always investigate sounds
-	virtual bool	ShouldAvoidGoo( void ) { return m_tEzVariant != EZ_VARIANT_RAD; } // Don't avoid goo if the slime variant
+	bool			ShouldInvestigateSounds(void) { return true; } // !m_bIsBaby || BaseClass::ShouldInvestigateSounds();}	// 1upD - Adult predators always investigate sounds
+	virtual bool	ShouldAvoidGoo(void) { return true;} // m_tEzVariant != EZ_VARIANT_RAD;} // Don't avoid goo if the slime variant
 
 	DEFINE_CUSTOM_AI;
 

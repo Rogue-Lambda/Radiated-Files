@@ -1,16 +1,16 @@
-﻿Build started 17/07/2020 15:25:21.
-     1>Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\game\client\client_episodic.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 17/07/2020 17:46:21.
+     1>Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\game\client\client_episodic.vcxproj" on node 3 (Rebuild target(s)).
      1>PreBuildEvent:
          if EXIST ..\..\..\game\mod_episodic\bin\.\client.dll for /f "delims=" %%A in ('attrib "..\..\..\game\mod_episodic\bin\.\client.dll"') do set valveTmpIsReadOnly="%%A"
          set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
-         if "%valveTmpIsReadOnlyLetter%"=="R" del /q "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\game\client\Release_mod_episodic\"client.dll
+         if "%valveTmpIsReadOnlyLetter%"=="R" del /q "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\game\client\Release_mod_episodic\"client.dll
          if exist "..\..\devtools\bin\vpc.exe" "..\..\devtools\bin\vpc.exe" -crc2 "client_episodic.vcxproj"
          if ERRORLEVEL 1 exit /b 1
          
          :VCEnd
        CustomBuild:
          Compiling pointeroverride.asm
-          Assembling: C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\public\tier0\pointeroverride.asm
+          Assembling: C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\public\tier0\pointeroverride.asm
          Microsoft (R) Macro Assembler Version 12.00.40629.0
          Copyright (C) Microsoft Corporation.  All rights reserved.
          
@@ -1053,26 +1053,26 @@
          ..\..\lib\public\vstdlib.lib
          ..\..\lib\public\vtf.lib
             Creating library .\Release_mod_episodic\\client.lib and object .\Release_mod_episodic\\client.exp
-         client_episodic.vcxproj -> C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\game\client\.\Release_mod_episodic\client.dll
+         client_episodic.vcxproj -> C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\game\client\.\Release_mod_episodic\client.dll
        PostBuildEvent:
          if not exist "..\..\..\game\mod_episodic\bin\." mkdir "..\..\..\game\mod_episodic\bin\."
-         copy "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\game\client\Release_mod_episodic\client.dll" "..\..\..\game\mod_episodic\bin\.\client.dll"
+         copy "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\game\client\Release_mod_episodic\client.dll" "..\..\..\game\mod_episodic\bin\.\client.dll"
          if ERRORLEVEL 1 goto BuildEventFailed
-         if exist "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\game\client\Release_mod_episodic\client.map" copy "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\game\client\Release_mod_episodic\client.map" ..\..\..\game\mod_episodic\bin\.\client.map
-         copy "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\game\client\Release_mod_episodic\client.pdb" ..\..\..\game\mod_episodic\bin\.\client.pdb
+         if exist "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\game\client\Release_mod_episodic\client.map" copy "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\game\client\Release_mod_episodic\client.map" ..\..\..\game\mod_episodic\bin\.\client.map
+         copy "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\game\client\Release_mod_episodic\client.pdb" ..\..\..\game\mod_episodic\bin\.\client.pdb
          if ERRORLEVEL 1 goto BuildEventFailed
          goto BuildEventOK
          :BuildEventFailed
          echo *** ERROR! PostBuildStep FAILED for Client (Episodic)! EXE or DLL is probably running. ***
-         del /q "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\game\client\Release_mod_episodic\client.dll"
+         del /q "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\game\client\Release_mod_episodic\client.dll"
          exit 1
          :BuildEventOK
          
          :VCEnd
                  1 file(s) copied.
                  1 file(s) copied.
-     1>Done Building Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\game\client\client_episodic.vcxproj" (Rebuild target(s)).
+     1>Done Building Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\game\client\client_episodic.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:03:32.20
+Time Elapsed 00:02:50.91

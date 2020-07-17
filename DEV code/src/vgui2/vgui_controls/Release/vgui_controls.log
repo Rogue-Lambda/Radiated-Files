@@ -1,5 +1,5 @@
-﻿Build started 17/07/2020 15:24:43.
-     1>Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\vgui2\vgui_controls\vgui_controls.vcxproj" on node 4 (Rebuild target(s)).
+﻿Build started 17/07/2020 17:45:44.
+     1>Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\vgui2\vgui_controls\vgui_controls.vcxproj" on node 4 (Rebuild target(s)).
      1>PreBuildEvent:
          if EXIST ..\..\lib\public\.\vgui_controls.lib ( for /f "delims=" %%A in ('attrib "..\..\lib\public\.\vgui_controls.lib"') do set valveTmpIsReadOnly="%%A"
          ) else ( if not EXIST ..\..\lib\public\. mkdir ..\..\lib\public\. )
@@ -172,9 +172,9 @@
          .\Release\.\/vgui_key_translation.obj
          .\Release\.\/WizardPanel.obj
          .\Release\.\/WizardSubPanel.obj
-         vgui_controls.vcxproj -> C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\vgui2\vgui_controls\..\..\lib\public\.\vgui_controls.lib
-     1>Done Building Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\vgui2\vgui_controls\vgui_controls.vcxproj" (Rebuild target(s)).
+         vgui_controls.vcxproj -> C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\vgui2\vgui_controls\..\..\lib\public\.\vgui_controls.lib
+     1>Done Building Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\vgui2\vgui_controls\vgui_controls.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:33.41
+Time Elapsed 00:00:36.70

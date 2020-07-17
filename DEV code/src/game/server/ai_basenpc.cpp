@@ -10692,6 +10692,9 @@ BEGIN_DATADESC( CAI_BaseNPC )
 	DEFINE_FIELD( m_bImportanRagdoll,			FIELD_BOOLEAN ),
 	DEFINE_FIELD( m_bPlayerAvoidState,			FIELD_BOOLEAN ),
 
+	DEFINE_KEYFIELD(m_tEzVariant, FIELD_INTEGER, "ezvariant"),
+	// DEFINE_KEYFIELD(m_bNoGlow, FIELD_BOOLEAN, "noglow"),
+
 	// Satisfy classcheck
 	// DEFINE_FIELD( m_ScheduleHistory, CUtlVector < AIScheduleChoice_t > ),
 

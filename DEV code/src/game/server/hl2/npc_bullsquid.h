@@ -15,11 +15,11 @@
 #define NPC_BULLSQUID_H
 
 #include "ai_basenpc.h"
-#include "npc_basepredator.h"
 
-class CNPC_Bullsquid : public CNPC_BasePredator
+
+class CNPC_Bullsquid : public CAI_BaseNPC
 {
-	DECLARE_CLASS( CNPC_Bullsquid, CNPC_BasePredator );
+	DECLARE_CLASS( CNPC_Bullsquid, CAI_BaseNPC );
 	DECLARE_DATADESC();
 
 public:
@@ -31,48 +31,43 @@ public:
 	void PainSound( const CTakeDamageInfo &info );
 	void AlertSound( void );
 	void DeathSound( const CTakeDamageInfo &info );
-	void FoundEnemySound( void );
 	void AttackSound( void );
 	void GrowlSound( void );
-	void BiteSound( void );
-	void EatSound( void );
 
 	float MaxYawSpeed ( void );
 
-	int RangeAttack1Conditions( float flDot, float flDist );
-	int MeleeAttack1Conditions( float flDot, float flDist );
-
 	void HandleAnimEvent( animevent_t *pEvent );
 
-	float GetMaxSpitWaitTime( void );
-	float GetMinSpitWaitTime( void );
+	int RangeAttack1Conditions( float flDot, float flDist );
+	int MeleeAttack1Conditions( float flDot, float flDist );
+	int MeleeAttack2Conditions( float flDot, float flDist );
 
-	float GetWhipDamage( void );
-	float GetBiteDamage( void );
-
+	bool FValidateHintType ( CAI_Hint *pHint );
+	void RemoveIgnoredConditions( void );
+	Disposition_t IRelationType( CBaseEntity *pTarget );
 	int OnTakeDamage_Alive( const CTakeDamageInfo &inputInfo );
 
-	bool IsPrey( CBaseEntity* pTarget ) { return pTarget->Classify() == CLASS_HEADCRAB; }
-	virtual bool ShouldInfight( CBaseEntity * pTarget ); // Could this target npc be a rival I need to kill?
-
+	int GetSoundInterests ( void );
 	void RunAI ( void );
+	virtual void OnListened ( void );
+
+	int SelectSchedule( void );
+	bool FInViewCone ( Vector pOrigin );
 
 	void StartTask ( const Task_t *pTask );
-	void RunTask( const Task_t * pTask );
+	void RunTask ( const Task_t *pTask );
 
-	int				SelectSchedule( void );
-	int 			TranslateSchedule( int scheduleType );
-
-	bool		ShouldGib( const CTakeDamageInfo &info );
-	bool		CorpseGib( const CTakeDamageInfo &info );
-	void		ExplosionEffect( void );
-
-	bool SpawnNPC( const Vector position );
+	NPC_STATE SelectIdealState ( void );
 
 	DEFINE_CUSTOM_AI;
 
-private:	
+private:
+	
+	bool  m_fCanThreatDisplay;// this is so the squid only does the "I see a headcrab!" dance one time. 
+	float m_flLastHurtTime;// we keep track of this, because if something hurts a squid, it will forget about its love of headcrabs for a while.
+	float m_flNextSpitTime;// last time the bullsquid used the spit attack.
 	int   m_nSquidSpitSprite;
+	float m_flHungryTime;// set this is a future time to stop the monster from eating for a while. 
 
 	float m_nextSquidSoundTime;
 };

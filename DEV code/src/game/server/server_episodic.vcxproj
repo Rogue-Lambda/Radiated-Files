@@ -344,7 +344,6 @@ exit 1
     <ClInclude Include="..\..\public\ihltv.h" />
     <ClInclude Include="..\..\public\ihltvdirector.h" />
     <ClInclude Include="..\..\public\vstdlib\IKeyValuesSystem.h" />
-    <ClInclude Include="hl2\npc_basepredator.h" />
     <ClInclude Include="hl2\npc_bullsquid.h" />
     <ClInclude Include="hl2\npc_houndeye.h" />
     <ClInclude Include="ilagcompensationmanager.h" />
@@ -412,6 +411,7 @@ exit 1
     <ClInclude Include="..\..\game\shared\saverestore_utlrbtree.h" />
     <ClInclude Include="..\..\public\saverestoretypes.h" />
     <ClInclude Include="..\..\public\scratchpad3d.h" />
+    <ClInclude Include="pointhurt.h" />
     <ClInclude Include="scratchpad_gamedll_helpers.h" />
     <ClInclude Include="..\..\public\ScratchPadUtils.h" />
     <ClInclude Include="sendproxy.h" />
@@ -1059,7 +1059,6 @@ exit 1
     <ClCompile Include="globalstate.cpp" />
     <ClCompile Include="grenadethrown.cpp" />
     <ClCompile Include="guntarget.cpp" />
-    <ClCompile Include="hl2\npc_basepredator.cpp" />
     <ClCompile Include="hl2\npc_bullsquid.cpp" />
     <ClCompile Include="hl2\npc_houndeye.cpp" />
     <ClCompile Include="hl2\trigger_super_armor.cpp" />

@@ -1,5 +1,5 @@
-﻿Build started 17/07/2020 15:24:43.
-     1>Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\mathlib\mathlib.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 17/07/2020 17:45:44.
+     1>Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\mathlib\mathlib.vcxproj" on node 2 (Rebuild target(s)).
      1>PreBuildEvent:
          if EXIST ..\lib\public\.\mathlib.lib ( for /f "delims=" %%A in ('attrib "..\lib\public\.\mathlib.lib"') do set valveTmpIsReadOnly="%%A"
          ) else ( if not EXIST ..\lib\public\. mkdir ..\lib\public\. )
@@ -62,9 +62,9 @@
          .\Release\.\/ssenoise.obj
          .\Release\.\/vector.obj
          .\Release\.\/vmatrix.obj
-         mathlib.vcxproj -> C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\mathlib\..\lib\public\.\mathlib.lib
-     1>Done Building Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\mathlib\mathlib.vcxproj" (Rebuild target(s)).
+         mathlib.vcxproj -> C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\mathlib\..\lib\public\.\mathlib.lib
+     1>Done Building Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\mathlib\mathlib.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:11.71
+Time Elapsed 00:00:22.19

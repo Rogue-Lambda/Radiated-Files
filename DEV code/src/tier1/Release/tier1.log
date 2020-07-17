@@ -1,5 +1,5 @@
-﻿Build started 17/07/2020 15:25:04.
-     1>Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\tier1\tier1.vcxproj" on node 3 (Rebuild target(s)).
+﻿Build started 17/07/2020 17:45:44.
+     1>Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\tier1\tier1.vcxproj" on node 3 (Rebuild target(s)).
      1>PreBuildEvent:
          if EXIST ..\lib\public\.\tier1.lib ( for /f "delims=" %%A in ('attrib "..\lib\public\.\tier1.lib"') do set valveTmpIsReadOnly="%%A"
          ) else ( if not EXIST ..\lib\public\. mkdir ..\lib\public\. )
@@ -93,9 +93,9 @@
          .\Release\.\/utlbufferutil.obj
          .\Release\.\/utlstring.obj
          .\Release\.\/utlsymbol.obj
-         tier1.vcxproj -> C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\tier1\..\lib\public\.\tier1.lib
-     1>Done Building Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\sp\src\tier1\tier1.vcxproj" (Rebuild target(s)).
+         tier1.vcxproj -> C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\tier1\..\lib\public\.\tier1.lib
+     1>Done Building Project "C:\Users\taz-e\Desktop\Radiated\Radiated-Files\DEV code\src\tier1\tier1.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:16.60
+Time Elapsed 00:00:29.42
