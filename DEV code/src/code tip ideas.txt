@@ -1,0 +1,23 @@
+inherit from item healthkit
+
+//-----------------------------------------------------------------------------
+// Purpose: 
+//-----------------------------------------------------------------------------
+void CHealthKit::Spawn( void )
+{
+	Precache();
+	SetModel( "models/radiated/coffemug.mdl" );
+
+	BaseClass::Spawn();
+}
+
+
+//-----------------------------------------------------------------------------
+// Purpose: 
+//-----------------------------------------------------------------------------
+void CHealthKit::Precache( void )
+{
+	PrecacheModel("models/radiated/coffemug.mdl");
+
+	PrecacheScriptSound( "coffemug.slurp" );
+}

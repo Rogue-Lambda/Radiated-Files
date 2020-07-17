@@ -1,0 +1,5 @@
+SDK_VertexLitGeneric
+{
+	"$baseTexture" "models\bullsquid/bullchicken2"
+	"$bumpmap" "models\bullsquid/bullchicken2_normal"
+}

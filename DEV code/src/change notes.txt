@@ -1,0 +1,3 @@
+suit model is  antlion gib
+npc's blink
+houndeye
