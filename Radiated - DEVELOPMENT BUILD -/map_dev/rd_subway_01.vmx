@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6440"
-	"mapversion" "539"
+	"mapversion" "538"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -98,7 +98,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "539"
+	"mapversion" "538"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -135172,7 +135172,7 @@ entity
 	"DensityRampSpeed" "1"
 	"material" "particle/smokesprites_0001"
 	"MovementSpeed" "8"
-	"ParticleDrawWidth" "32"
+	"ParticleDrawWidth" "64"
 	"ParticleSpacingDistance" "16"
 	"RotationSpeed" "8"
 	"spawnflags" "0"
