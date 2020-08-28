@@ -49,4 +49,5 @@ particles_manifest
 	"file"		"particles/flamethrowertest.pcf"
 	"file"		"particles/flamethrower.pcf" 
 	"file"		"particles/npc_houndeye.pcf"
+	"file"		"particles/bullsquid.pcf"
 }
