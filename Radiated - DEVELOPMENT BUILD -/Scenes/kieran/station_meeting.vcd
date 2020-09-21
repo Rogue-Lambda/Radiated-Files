@@ -1,0 +1,82 @@
+// Choreo version 1
+actor "kieran"
+{
+  channel "audio"
+  {
+    event speak "npc_kieran.talk03"
+    {
+      time 2.311667 9.463412
+      param "npc_kieran.talk03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "action"
+  {
+    event moveto "walk to player"
+    {
+      time 0.053333 2.466666
+      param "!player"
+      param2 "Walk"
+      distancetotarget 17.00
+    }
+    event gesture "gest_01"
+    {
+      time 2.201389 4.348612
+      param "g_plead_01"
+      absolutetags playback_time
+      {
+        "apex" 0.129032
+        "accent" 0.410581
+        "loop" 0.631663
+        "end" 0.932258
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.275862
+        "accent" 0.448276
+        "loop" 0.689655
+        "end" 0.862069
+      }
+      sequenceduration 1.966667
+    }
+    event gesture "gest_02"
+    {
+      time 4.368056 8.229384
+      param "G_righthandpoint"
+      absolutetags playback_time
+      {
+        "apex" 0.122634
+        "accent" 0.262787
+        "loop" 0.383232
+        "end" 0.852826
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.205882
+        "accent" 0.441176
+        "loop" 0.470588
+        "end" 0.676471
+      }
+      sequenceduration 2.300000
+    }
+    event firetrigger "trigger_seq"
+    {
+      time 8.322223 -1.000000
+      param "1"
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "80"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

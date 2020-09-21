@@ -1,0 +1,40 @@
+// Choreo version 1
+actor "dr_rob"
+{
+  channel "move"
+  {
+    event moveto "key_press"
+    {
+      time 0.146667 5.933334
+      param "!target1"
+      param2 "Walk"
+      distancetotarget 20.00
+    }
+  }
+  channel "moveto"
+  {
+    event moveto "exit_room"
+    {
+      time 6.866667 24.866667
+      param "!target2"
+      param2 "Walk"
+      distancetotarget 3.00
+    }
+  }
+}
+
+actor "mgr_tom"
+{
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

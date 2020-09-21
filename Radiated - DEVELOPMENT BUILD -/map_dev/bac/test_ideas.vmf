@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6440"
-	"mapversion" "112"
+	"mapversion" "115"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -38,7 +38,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "112"
+	"mapversion" "115"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5452,16 +5452,6 @@ world
 			"visgroupautoshown" "1"
 		}
 	}
-	group
-	{
-		"id" "6054"
-		editor
-		{
-			"color" "220 220 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 }
 hidden
 {
@@ -5616,7 +5606,7 @@ entity
 	"id" "132"
 	"classname" "info_player_start"
 	"angles" "0 0 0"
-	"origin" "-325.893 -76.6147 1"
+	"origin" "392 -64 1"
 	editor
 	{
 		"color" "0 255 0"
@@ -10437,6 +10427,25 @@ entity
 		"logicalpos" "[0 3500]"
 	}
 }
+entity
+{
+	"id" "5770"
+	"classname" "light"
+	"_fifty_percent_distance" "16"
+	"_light" "206 162 6 20"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"_zero_percent_distance" "64"
+	"origin" "16 206.017 5.39415"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
 cameras
 {
 	"activecamera" "1"
@@ -10447,8 +10456,8 @@ cameras
 	}
 	camera
 	{
-		"position" "[172.899 -84.8904 315.93]"
-		"look" "[173.548 -85.0144 315.18]"
+		"position" "[-13.7682 -55.8326 113.488]"
+		"look" "[-12.7944 -55.8475 113.261]"
 	}
 }
 cordon

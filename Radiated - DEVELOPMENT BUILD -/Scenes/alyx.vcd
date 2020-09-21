@@ -1,0 +1,15 @@
+// Choreo version 1
+actor "Alex"
+{
+  channel "Audio"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

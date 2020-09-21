@@ -1,0 +1,11 @@
+"npc_eo1_breen"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"VOL_NORM"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"wave"	"eo1_breencast/kl_fellowcitizens02.wav"
+//	"wave"	"vo/episode_1/intro/kl_fellowcitizens02.wav"		
+	}

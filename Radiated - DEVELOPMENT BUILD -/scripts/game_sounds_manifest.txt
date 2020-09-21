@@ -34,6 +34,8 @@ game_sounds_manifest
 	"precache_file"		"scripts/level_sounds_ravenholm.txt"
 	"precache_file"		"scripts/level_sounds_ravenholm2.txt"
 	"precache_file"		"scripts/level_sounds_canals2.txt"
+	"precache_file"		"scripts/level_voices_episode_01.txt"
+	"precache_file"		"scripts/level_voices_episode_02.txt"
 	//Music Tracks
 	"precache_file"		"scripts/level_sounds_music.txt"
 
@@ -74,6 +76,9 @@ game_sounds_manifest
 	"precache_file"		"scripts/npc_sounds_stalker.txt"
 	"precache_file"		"scripts/npc_sounds_gman.txt"
 	
+	// npc breen test 
+	"precache_file"		"scripts/npc_eo1_breen.txt"
+	
 	// npc a.i hl2mp_mod sounds
 	
 	"precache_file"		"scripts/npc_sounds_houndeye.txt"
@@ -83,4 +88,5 @@ game_sounds_manifest
 	
 	"precache_file"		"scripts/game_sounds_rd_subway.txt"
 	"precache_file"		"scripts/plaza_sounds.txt"
+	"precache_file"		"scripts/npc_sounds_kieran.txt"
 }
