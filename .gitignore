@@ -16,7 +16,7 @@ voice_ban.dt
 user_custom
 video.txt
 
-*.dll
+# *.dll
 *.pdb
 SAVE/
 
