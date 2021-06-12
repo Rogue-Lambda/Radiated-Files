@@ -38,13 +38,39 @@ game_sounds_manifest
 	"precache_file"		"scripts/level_voices_episode_02.txt"
 	//Music Tracks
 	"precache_file"		"scripts/level_sounds_music.txt"
-
+	
+	// Episodic content sounds
+	"precache_file"		"scripts/npc_sounds_alyx_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_strider_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_strider_episodic2.txt"
+	"precache_file"		"scripts/npc_sounds_turret_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_soldier_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_ministrider_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_roller_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_combine_ball_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_citizen_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_citizen_episodic2.txt"
+	"precache_file"		"scripts/npc_sounds_citizen_ep1.txt"
+	"precache_file"		"scripts/npc_sounds_zombine.txt"
+	"precache_file"		"scripts/npc_sounds_dog_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_antlion_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_antlionguard_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_antlionguard_episodic2.txt"
+	"precache_file"		"scripts/npc_sounds_advisor.txt"
+	"precache_file"		"scripts/npc_sounds_advisor_episodic2.txt"
+	"precache_file"		"scripts/npc_sounds_hunter.txt"
+	"precache_file"		"scripts/npc_sounds_antlion_grub_episodic.txt"
+	"precache_file"		"scripts/npc_sounds_attackheli_episodic2.txt"
+	"precache_file"		"scripts/npc_sounds_fastzombie_episodic2.txt"
+	"precache_file"		"scripts/game_sounds_addendum_ep2.txt"
 
 	// NPC Sounds
 	"precache_file"		"scripts/npc_sounds_eli.txt"
 	"precache_file"		"scripts/npc_sounds_alyx.txt"
 	"precache_file"		"scripts/npc_sounds_dog.txt"
 	"precache_file"		"scripts/npc_sounds_citizen.txt"
+	"precache_file"		"scripts/npc_sounds_citizen_ep1.txt"
+	"precache_file"		"scripts/npc_sounds_citizen_episodic.txt"
 	"precache_file"		"scripts/npc_sounds_barney.txt"
 	"precache_file"		"scripts/npc_sounds_soldier.txt"
 	"precache_file"		"scripts/npc_sounds_strider.txt"
@@ -89,4 +115,7 @@ game_sounds_manifest
 	"precache_file"		"scripts/game_sounds_rd_subway.txt"
 	"precache_file"		"scripts/plaza_sounds.txt"
 	"precache_file"		"scripts/npc_sounds_kieran.txt"
+	"precache_file"		"scripts/game_sounds_spooky.txt"
+	"precache_file"		"scripts/null_sounds.txt"
+	
 }

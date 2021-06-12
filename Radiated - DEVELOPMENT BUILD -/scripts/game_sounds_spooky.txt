@@ -1,0 +1,63 @@
+"Spooky_Ambience"
+{
+	"playlooping"
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"wave"	"spooky/ambience01_loop.wav"
+}
+
+"Forrest_Spooky_Ambience1"
+{
+	
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"wave"	"spooky/forest_ambience1.wav"
+	
+}
+
+"Forrest_Spooky_Ambience2"
+{
+	
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"wave"	"spooky/forest_ambience2.wav"
+	
+}
+
+"Forrest_Spooky_Ambience4"
+{
+	
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"wave"	"spooky/forest_ambience4.wav"
+	
+}
+"Spooky_Scream_distant1"
+{
+	
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"wave"	"spooky/scream_distant1.wav"
+	
+}
+
+"Spooky_Scream_distant2"
+{
+	
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_60dB"
+
+	"wave"	"spooky/scream_distant2.wav"
+	
+}
