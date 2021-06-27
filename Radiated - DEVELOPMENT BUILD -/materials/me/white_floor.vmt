@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "me/white_floor"
+	"$bumpmap" "me/white_floor_normal"
+	"$surfaceprop" "rubber"
+	"%keywords" "dml"
+}

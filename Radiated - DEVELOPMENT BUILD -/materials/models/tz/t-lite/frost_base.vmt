@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+
+    	"$basetexture" 	"decals/frost_base"
+	"$translucent"	"1"
+	"%keyworkds"	"bms"    
+}

@@ -1,0 +1,7 @@
+"LightmappedGeneric" //"PBRLightmapped" 
+{
+	"$basetexture" "tz_mats/concrete_flat1"
+	"$bumpmap" "tz_mats/concrete_flat1_normal"
+ //	"$mraotexture" "tz_mats/concrete_flat1_MRAO"
+	"$surfaceprop" "concrete"
+}

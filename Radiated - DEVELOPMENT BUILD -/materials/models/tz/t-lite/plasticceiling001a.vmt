@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	// original shader: basetimeslightmap
+	"$bumpmap" "props/plasticceiling001a_normal"
+	"$basetexture" "props/plasticceiling001a"
+	"$surfaceprop" "plastic"
+	"%keywords" "borealis"
+}

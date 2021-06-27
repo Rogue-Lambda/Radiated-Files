@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/kenneth/k_hand"
+                "$halflambert" 1
+}

@@ -1,0 +1,23 @@
+// Choreo version 1
+actor "sleeper2"
+{
+  channel "Voice"
+  {
+    event speak "lets_giveup"
+    {
+      time 0.106667 1.783946
+      param "ep1_citizen.cit_evac_casualty10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

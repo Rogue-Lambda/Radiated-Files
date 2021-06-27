@@ -1,0 +1,37 @@
+// Choreo version 1
+actor "barney"
+{
+  channel "Voice"
+  {
+    event speak "here"
+    {
+      time 1.686667 2.448481
+      param "NPC_MetroPolice.onecontained"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "MoveTo"
+  {
+    event moveto "WalkToScreen"
+    {
+      time 0.033334 4.846667
+      param "Screen"
+      param2 "Walk"
+      distancetotarget 3.00
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

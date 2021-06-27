@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/forestalive/F_Pants"
+                "$halflambert" 1
+}

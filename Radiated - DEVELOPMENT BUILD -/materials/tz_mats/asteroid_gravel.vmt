@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/gravelfloor001a"
+	"$basetexture2" "nature/rockfloor002a"
+	"%tooltexture" "nature/gravelfloor001a"
+//	"$bumpmap" "Nature/dirtground005_height-ssbump"
+//	"$bumpmap2" "Nature/gravelground001_height-ssbump"
+//	"$blendmodulatetexture" "Nature/dirtground002_blendmask"
+	"%keywords" "asteroid"
+//	"$ssbump" "1"
+	"$surfaceprop" "stone"
+}

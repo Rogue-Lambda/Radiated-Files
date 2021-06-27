@@ -1,0 +1,84 @@
+// Choreo version 1
+actor "barney"
+{
+  channel "Walk_To_Place"
+  {
+    event moveto "waltodoor"
+    {
+      time 0.010000 6.704515
+      param "Door"
+      param2 "Walk"
+    }
+    event lookat "Player_stare"
+    {
+      time 2.964394 9.003975
+      param "Player"
+    }
+    event moveto "StandBackFrom"
+    {
+      time 9.293927 10.934191
+      param "StandBack"
+      param2 "Walk"
+    }
+    event moveto "walktostairs"
+    {
+      time 10.903440 31.514944
+      param "UpStairs"
+      param2 "Walk"
+    }
+    event lookat "LookPlayer"
+    {
+      time 28.448072 29.725849
+      param "!player"
+    }
+    event face "FacePlayer"
+    {
+      time 28.444445 29.777779
+      param "!player"
+    }
+  }
+  channel "Voice"
+  {
+    event speak "followme"
+    {
+      time 7.042237 8.700899
+      param "vo\trainyard\ba_youcomewith.wav"
+      param2 "VOL_NORM"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event gesture "point_follow"
+    {
+      time 6.652313 9.240192
+      param "g_motionright"
+      absolutetags playback_time
+      {
+        "apex" 0.130269
+        "accent" 0.247512
+        "loop" 1.000000
+        "end" 1.000000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.113636
+        "accent" 0.215909
+        "loop" 1.000000
+        "end" 1.011364
+      }
+      sequenceduration 2.966667
+    }
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "RampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "CChoreoView" "44"
+}
+fps 60
+snap off
+ignorePhonemes off

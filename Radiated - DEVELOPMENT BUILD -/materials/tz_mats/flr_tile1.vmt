@@ -1,0 +1,7 @@
+"LightmappedGeneric" //"PBRLightmapped" 
+{
+	"$basetexture" "tz_mats/flr_tile1"
+	"$bumpmap" "tz_mats/flr_tile1_normal"
+ //	"$mraotexture" "tz_mats/flr_tile1_MRAO"
+	"$surfaceprop" "stone"
+}

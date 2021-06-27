@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/kenneth/k_vest"
+                "$halflambert" 1
+}

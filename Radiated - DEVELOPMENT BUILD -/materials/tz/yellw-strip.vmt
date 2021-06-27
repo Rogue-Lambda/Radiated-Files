@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tz/yellow-strip1_2"
+	"$bumpmap" "tz/yellow-strip1_2_normal"
+	"$surfaceprop" "metal"
+}

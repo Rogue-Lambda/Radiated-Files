@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tz/wall14_5"
+	"$bumpmap" "tz/wall14_5_normal"
+	"$surfaceprop" "stone"
+}
